@@ -3,7 +3,7 @@ const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
 const { events, users, locations, participants } = require("./data.json");
-
+ //
 const typeDefs = gql`
 
    
